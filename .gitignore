@@ -1,0 +1,34 @@
+# 원본 자료 (사건·판례 원문)
+raw/
+
+# 결과물 중 정리표
+out/질의회신_판례_정리표.md
+
+# 환경변수·비밀정보
+.env
+.env.*
+*.key
+*.pem
+*secret*
+*password*
+*credential*
+*apikey*
+*api_key*
+
+# PDF
+*.pdf
+
+# 임시 파일
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+~$*
+.~lock.*
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Claude 개인 설정
+.claude/settings.local.json
